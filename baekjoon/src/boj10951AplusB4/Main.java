@@ -1,4 +1,4 @@
-package boj10951For;
+package boj10951AplusB4;
 
 import java.io.BufferedReader;
 import java.io.IOException;

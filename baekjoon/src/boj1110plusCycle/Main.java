@@ -1,4 +1,4 @@
-package boj1110For;
+package boj1110plusCycle;
 
 import java.util.Scanner;
 

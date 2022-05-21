@@ -1,4 +1,4 @@
-package boj2577Array;
+package boj2577CountingNumbers;
 
 import java.io.BufferedReader;
 import java.io.IOException;

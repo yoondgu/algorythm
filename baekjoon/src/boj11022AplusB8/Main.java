@@ -1,4 +1,4 @@
-package boj11022For;
+package boj11022AplusB8;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

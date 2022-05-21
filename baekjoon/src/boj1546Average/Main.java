@@ -1,4 +1,4 @@
-package boj1546Array;
+package boj1546Average;
 
 import java.io.BufferedReader;
 import java.io.IOException;

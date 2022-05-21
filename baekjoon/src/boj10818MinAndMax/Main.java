@@ -1,4 +1,4 @@
-package boj10818Array;
+package boj10818MinAndMax;
 
 import java.io.BufferedReader;
 import java.io.IOException;

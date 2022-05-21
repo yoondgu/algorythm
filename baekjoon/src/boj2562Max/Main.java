@@ -1,4 +1,4 @@
-package boj2562Array;
+package boj2562Max;
 
 import java.io.BufferedReader;
 import java.io.IOException;

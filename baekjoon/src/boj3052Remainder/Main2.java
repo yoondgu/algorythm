@@ -1,4 +1,4 @@
-package boj3052Array;
+package boj3052Remainder;
 
 import java.io.BufferedReader;
 import java.io.IOException;

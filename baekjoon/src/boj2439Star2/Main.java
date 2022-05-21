@@ -1,14 +1,13 @@
-package boj10871For;
+package boj2439Star2;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.StringTokenizer;
 
 /**
- * 10871번 X보다 작은 수
+ * 2439번 별찍기 - 2
  */
 public class Main {
 
@@ -16,20 +15,19 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		String[] nx = (br.readLine()).split(" ");
-		int x = Integer.parseInt(nx[1]);
-		
-		String str=br.readLine();
-		StringTokenizer stk = new StringTokenizer(str);
-		br.close();
-		
-		while (stk.hasMoreTokens()) {
-			int number = Integer.parseInt(stk.nextToken());
-			if (number < x) {
-				bw.write(number + " ");
+		int n = Integer.parseInt(br.readLine());
+		for (int i=1; i<=n; i++) {
+			int blankCount = n - i;
+			for (int x=1; x<=blankCount; x++) {
+				bw.write(" ");
 			}
+			for (int x=1; x<=i; x++) {
+				bw.write("*");
+			}
+		bw.newLine();
 		}
 		bw.flush();
 		bw.close();
+		br.close();
 	}
 }
