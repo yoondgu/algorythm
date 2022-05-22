@@ -25,7 +25,8 @@ public class Main {
 		// calculate(int n) 함수를 실행해서 얻은 값은 생성자가 존재하는 숫자이다.
 		// 따라서 계산해서 나온 숫자 result를 인덱스로 하는 칸의 값을 true로 바꾼다.
 		
-		// i가 아니라 result 가 10000보다 작거나 같은 모든 셀프넘버인데, i가 1~10000이라고 그렇게 되는지? 일정하게 증가하는게 아닌데		
+		// i가 아니라 result 가 10000보다 작거나 같은 모든 셀프넘버인데, i가 1~10000이라고 그렇게 되는지? 일정하게 증가하는게 아닌데
+		// 1부터 1씩 증가하며 calculate함수로 연산한 수들 중 각 가장 큰 자리의 수가 같은 수는 대소관계가 명확하다.
 		boolean[] isSelfNumberList = new boolean[10001];
 		for (int i = 1; i < 10001; i++) {
 			int result = calculate(i);
